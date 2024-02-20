@@ -1,33 +1,58 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.navbar-top{
+        width: 100%;
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    background-color: #3c917b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+a.navbar-brand{
+    color: white;
+    font-family: brandon-grotesque;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: 0.576px;
+    line-height: 25.92px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.nav-link{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.424px;
+    font-family: brandon-grotesque;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+a.nav-link.active {
+    text-decoration: underline;
+}
+
+.nav-item a{
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: var(--bs-nav-link-color);
+    text-decoration: none;
+    background: 0 0;
+    border: 0;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+        color: white;
+    font-size: 18px;
+    letter-spacing: 1.424px;
+    font-family: brandon-grotesque;
+}
+
+a.active, .nav-item a:hover{
+    text-decoration: underline;
+      text-decoration-thickness: 2px; /* Adjust thickness as needed */
+  text-underline-offset: 0.2em;
+}
+
+/* styles.css */
+.profile-pic-container {/* Set the desired height */ /* Hide any overflowing content */
+}
+
+.profile-pic {/* Make sure the image takes up the entire container width */ /* Make sure the image takes up the entire container height */
+  object-fit: cover; /* Maintain aspect ratio while covering the container */
 }
