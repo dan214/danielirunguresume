@@ -81,3 +81,11 @@ mark{
     font-weight: 500;
     line-height: 34px;
 }
+
+.socialmedia{
+    padding-top: 1.5em;
+}
+
+.socialmedia a{
+    padding-right: 30px;
+}

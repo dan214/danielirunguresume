@@ -5,6 +5,10 @@ import Image from 'next/image'
 import profilePic from '../images/dan.jpg'
 import { Button, Card, CardBody, CardFooter, CardHeader, CardText, CardTitle, Col, Row } from "reactstrap";
 import Arrow from "@/components/icons/Arrow";
+import Facebook from "@/components/icons/facebook";
+import LinkedIn from "@/components/icons/linkedin";
+import Github from "@/components/icons/github";
+import Twitter from "@/components/icons/twitter";
 import Link from 'next/link';
 
 const theme = createTheme();
@@ -36,10 +40,31 @@ export default function Home() {
                 Browsers and Devices test automation suites which reduced manual workload by 75% and
                 increased efficiency. Designed robust database systems and APIs by following best practices.
               </p>
-              <Link href='/experience'>
-                See my experience <Arrow />
-              </Link>
+
             </article>
+            <div>
+              <footer>
+                <Link href='/experience'>
+                  See my experience <Arrow />
+                </Link>
+                <div className='socialmedia'>
+                  <a href='https://www.facebook.com/daniel.irungu.71/' target='_blank'>
+                    <Facebook />
+                  </a>
+                  <a href='https://www.linkedin.com/in/daniel-irungu/' target='_blank'>
+                    <LinkedIn />
+                  </a>
+
+                  <a href='https://github.com/dan214' target='_blank'>
+                    <Github />
+                  </a>
+
+                  <a href='https://twitter.com/DanielI55295980' target='_blank'>
+                    <Twitter />
+                  </a>
+                </div>
+              </footer>
+            </div>
           </div>
         </Col>
       </Row>
