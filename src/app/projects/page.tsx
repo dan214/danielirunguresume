@@ -1,8 +1,10 @@
+import Projects from "@/components/navbar/projects";
+
 export default function Page() {
     return (
         <>
             <div>
-                projects page. Coming soon.
+                <Projects />
 
             </div>
         </>

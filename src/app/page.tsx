@@ -1,7 +1,5 @@
 "use client"
-import { useEffect, useState } from "react";
-import { Container, Typography } from '@mui/material';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { createTheme } from '@mui/material/styles';
 import Image from 'next/image'
 import profilePic from '../images/dan.jpg'
 import { Button, Card, CardBody, CardFooter, CardHeader, CardText, CardTitle, Col, Row } from "reactstrap";

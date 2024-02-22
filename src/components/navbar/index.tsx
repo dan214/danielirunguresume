@@ -6,8 +6,6 @@ import { Nav, NavItem, Navbar, NavbarBrand } from "reactstrap";
 
 const NavBar = () => {
     const pathname = usePathname();
-    console.log("pathname");
-    console.log(pathname);
 
     return (
         <div className="navbar-top">
