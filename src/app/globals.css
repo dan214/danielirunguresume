@@ -1,14 +1,11 @@
 .navbar-top{
-        width: 100%;
-    padding-top: 1.5vw;
-    padding-bottom: 1.5vw;
-    padding-left: 4vw;
+    width: 100%;
+    padding-top: 3.5vw;
+    padding-bottom: 5.5vw;
     padding-right: 4vw;
-    background-color: #3c917b;
 }
 
 a.navbar-brand{
-    color: white;
     font-family: brandon-grotesque;
     font-size: 35px;
     font-weight: 900;
@@ -23,6 +20,10 @@ a.navbar-brand{
     font-family: brandon-grotesque;
 }
 
+.navbar-top a{
+    color: black;
+}
+
 a.nav-link.active {
     text-decoration: underline;
 }
@@ -32,12 +33,10 @@ a.nav-link.active {
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: var(--bs-nav-link-color);
     text-decoration: none;
     background: 0 0;
     border: 0;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
-        color: white;
     font-size: 18px;
     letter-spacing: 1.424px;
     font-family: brandon-grotesque;
@@ -55,4 +54,30 @@ a.active, .nav-item a:hover{
 
 .profile-pic {/* Make sure the image takes up the entire container width */ /* Make sure the image takes up the entire container height */
   object-fit: cover; /* Maintain aspect ratio while covering the container */
+}
+
+body{
+    background-color: #0e0b0b17 ;
+}
+
+p.card-text{
+    line-height: 30px;
+}
+
+mark{
+    background-color: white;
+    padding: 0px;
+    font-size: 1.075em;
+    font-weight: 500;
+    margin: 2rem 0rem 1.5rem;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 9.9px;
+}
+
+.hometext p{
+    letter-spacing: 1.624px;
+    font-family: Blorado, sans-serif;
+    font-weight: 500;
+    line-height: 34px;
 }

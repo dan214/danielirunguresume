@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client"
 import { createTheme } from '@mui/material/styles';
 import Image from 'next/image'
@@ -15,47 +16,25 @@ export default function Home() {
         }} sm={{
           size: 12
         }} lg={{
-          size: 6
+          size: 9,
+          offset: 1
         }}>
-          <div className="profile-pic-container">
-            <Image className="profile-pic"
-              src={profilePic}
-              alt="Picture of the author"
-            />
-          </div>
-        </Col>
-        <Col md={{
-          size: 6
-        }} sm={{
-          size: 12
-        }} lg={{
-          size: 6
-        }}>
-          <div>
-            <Card
-              className="my-2"
-              style={{
-                width: '18rem'
-              }}
-            >
-              <CardHeader>
-                Header
-              </CardHeader>
-              <CardBody>
-                <CardTitle tag="h5">
-                  Special Title Treatment
-                </CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional content.
-                </CardText>
-                <Button>
-                  Go somewhere
-                </Button>
-              </CardBody>
-              <CardFooter>
-                Footer
-              </CardFooter>
-            </Card>
+          <div className='hometext'>
+            <article>
+              <h1>
+                <mark>I'm Daniel Irungu</mark>
+              </h1>
+              <p>
+                I am a Software Engineer with 5+ years of experience in developing commercial software
+                applications. I am eager to be challenged in building innovative business solutions. In previous
+                roles, ensured 90% on time deliverables and projects completion.
+              </p>
+              <p>
+                Built Microsoft Windows
+                Browsers and Devices test automation suites which reduced manual workload by 75% and
+                increased efficiency. Designed robust database systems and APIs by following best practices.
+              </p>
+            </article>
           </div>
         </Col>
       </Row>
