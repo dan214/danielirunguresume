@@ -4,6 +4,8 @@ import { createTheme } from '@mui/material/styles';
 import Image from 'next/image'
 import profilePic from '../images/dan.jpg'
 import { Button, Card, CardBody, CardFooter, CardHeader, CardText, CardTitle, Col, Row } from "reactstrap";
+import Arrow from "@/components/icons/Arrow";
+import Link from 'next/link';
 
 const theme = createTheme();
 
@@ -34,6 +36,9 @@ export default function Home() {
                 Browsers and Devices test automation suites which reduced manual workload by 75% and
                 increased efficiency. Designed robust database systems and APIs by following best practices.
               </p>
+              <Link href='/experience'>
+                See my experience <Arrow />
+              </Link>
             </article>
           </div>
         </Col>
