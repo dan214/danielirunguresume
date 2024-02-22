@@ -10,15 +10,12 @@ const NavBar = () => {
     return (
         <div className="navbar-top">
             <Navbar>
-                <NavbarBrand href="/">Daniel Irungu</NavbarBrand>
+                <NavbarBrand href="/">   <Link className={pathname === '/' ? 'active' : ''}
+                    href="/"
+                >
+                    Home
+                </Link></NavbarBrand>
                 <Nav className="justify-content-right topbar static-top">
-                    <NavItem>
-                        <Link className={pathname === '/' ? 'active' : ''}
-                            href="/"
-                        >
-                            Home
-                        </Link>
-                    </NavItem>
                     <NavItem>
                         <Link className={pathname === '/about' ? 'active' : ''} href="/about">
                             About

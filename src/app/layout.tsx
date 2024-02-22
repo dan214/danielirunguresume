@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from '@/components/navbar';
+import { Col, Row } from 'reactstrap';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +19,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}><NavBar />{children}</body>
+      <body className={inter.className}>
+        <Row>
+          <Col md={{
+            size: 12
+          }} sm={{
+            size: 12
+          }} lg={{
+            size: 8,
+            offset: 2
+          }}>
+            <NavBar />{children}
+          </Col>
+        </Row>
+      </body>
     </html>
   );
 }
