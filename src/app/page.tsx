@@ -18,7 +18,7 @@ export default function Home() {
     <>
       <Row>
         <Col md={{
-          size: 6
+          size: 12
         }} sm={{
           size: 12
         }} lg={{
