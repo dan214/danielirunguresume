@@ -1,7 +1,7 @@
 .navbar-top{
     width: 100%;
     padding-top: 3.5vw;
-    padding-bottom: 5.5vw;
+    padding-bottom: 2vw;
     padding-right: 4vw;
 }
 
@@ -75,11 +75,15 @@ mark{
     letter-spacing: 9.9px;
 }
 
-.hometext p{
+.hometext p, .about-text{
     letter-spacing: 1.624px;
     font-family: Blorado, sans-serif;
     font-weight: 500;
     line-height: 34px;
+}
+
+.hometext{
+    padding-top: 4em;
 }
 
 .socialmedia{
@@ -88,4 +92,7 @@ mark{
 
 .socialmedia a{
     padding-right: 30px;
+}
+.header-page{
+    text-align: center;
 }

@@ -1,9 +1,7 @@
 export default function Page() {
     return (
         <>
-            <div>
-                Education page. Coming soon.
-            </div>
+            <div className="header-page"><h2>Education</h2></div>
         </>
 
     )
