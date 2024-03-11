@@ -3,6 +3,7 @@ import { Card, CardHeader, CardBody, CardTitle, CardText, CardSubtitle } from "r
 export default function Page() {
     return (
         <>
+            <div className="header-page"><h2>Experience</h2></div>
             <Card
                 className="my-2"
                 color="light"

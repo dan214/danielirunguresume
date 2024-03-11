@@ -1,11 +1,7 @@
 export default function Page() {
     return (
         <>
-            <div>
-                Contact us page. Coming soon.
-
-            </div>
+            <div className="header-page"><h2>Contact Us</h2></div>
         </>
-
     )
 }
