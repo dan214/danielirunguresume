@@ -9,7 +9,7 @@ export default function Page() {
                 outline
             >
                 <CardHeader>
-                    2019 - Present
+                    November 2019 - Present
                 </CardHeader>
                 <CardBody>
                     <CardTitle tag="h5">
