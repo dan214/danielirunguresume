@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
                     <Col>
                         <p>Made with ❤️ by Daniel Irungu</p>
                         <p>
-                            <a href="https://github.com/dan214">View on GitHub</a>
+                            <a href="https://github.com/dan214" target='_blank'>View on GitHub</a>
                         </p>
                     </Col>
                 </Row>
