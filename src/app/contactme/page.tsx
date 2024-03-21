@@ -22,7 +22,7 @@ export default function Page() {
         }));
     };
 
-    const sendEmail = (e) => {
+    const sendEmail = (e: React.ChangeEvent<any>) => {
         e.preventDefault();
         emailjs
             .sendForm('service_04i5wbi', 'template_niqf7sp', e.target, 'jltWkwjye-Du-lq6D')
