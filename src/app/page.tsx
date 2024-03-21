@@ -43,14 +43,12 @@ export default function Home() {
                 <mark>I'm Daniel Irungu</mark>
               </h1>
               <p>
-                I am a Software Engineer with 5+ years of experience in developing commercial software
-                applications. I am eager to be challenged in building innovative business solutions. In previous
-                roles, ensured 90% on time deliverables and projects completion.
+                Hey there! 👋 I'm Daniel, your friendly neighborhood coding enthusiast! With a Bachelor's in Computer Science and a toolkit packed with .NET, React, and a sprinkle of Azure, I'm on a mission to turn ideas into digital masterpieces. When I'm not crafting sleek web apps or summoning APIs, you'll find me exploring tech trends, cracking jokes (programming puns, anyone?), and embracing the joy of learning.</p>
+              <p>
+                But it's not just about the code – I'm all about collaboration, creativity, and bringing a fresh perspective to the table. Let's team up, tackle challenges, and create something amazing together! Whether you're a startup in need of a tech-savvy sidekick or an established company seeking a fresh perspective, I'm here to make magic happen. Ready to dive into the code adventure?
               </p>
               <p>
-                Built Microsoft Windows
-                Browsers and Devices test automation suites which reduced manual workload by 75% and
-                increased efficiency. Designed robust database systems and APIs by following best practices.
+                Let's do this! 💻✨
               </p>
 
             </article>

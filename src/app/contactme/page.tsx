@@ -49,7 +49,7 @@ export default function Page() {
                 <h2>Contact Me</h2>
 
                 <div>Feel free to say hi!</div>
-                <div><Link href={'https://www.linkedin.com/in/daniel-irungu/'}>via LinkedIn</Link></div>
+                <div><Link href={'https://www.linkedin.com/in/daniel-irungu/'} target='_blank'>via LinkedIn</Link></div>
                 <span>You can fill out the form below or shoot me an email at:<Link href={'mailto:danielirungu544@gmail.com'}> danielirungu544@gmail.com</Link></span>
             </div>
             <Container>

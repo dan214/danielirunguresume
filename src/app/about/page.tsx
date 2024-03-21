@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Card, CardBody, CardHeader, CardText, CardTitle, Col, Row } from "reactstrap";
 import Img from '../dan.jpg'
+import Link from "next/link";
 
 export default function Page() {
     return (
@@ -28,21 +29,17 @@ export default function Page() {
                     }}>
                         <div className="about-text">
                             <p>
-                                I&apos;m a designer and hand lettering artist based in Detroit, but I&apos;ll always be a California gal at heart.
-                                I picked up hand lettering as a hobby while studying advertising at the School of Visual Arts, and over the next few years
-                                (+ thanks to the power of the internet) I leveraged a few clever passion projects into a thriving freelance business!</p>
+                                Hello! I&apos;m <b>Daniel Irungu</b>, a passionate and innovative software engineer with a strong background in .NET development and a knack for building scalable and efficient web applications.
+                                With over 5 years of experience in the industry, I&apos;ve had the privilege of working on a diverse range of projects, each presenting its own set of challenges and opportunities for growth.</p>
 
-                            <p>I know from experience that building a creative career can be a challenging and overwhelming endeavor,
-                                which is why I love sharing what I&apos;ve learned with others through my online courses and free resources on my blog.</p>
+                            <p>My journey in software development began with a Bachelor&apos;s degree in Computer Science from <Link href={'https://karu.ac.ke/school-of-pure-and-applied-sciences/'}>Karatina University</Link>, where I honed my technical skills and gained a solid foundation in programming principles.
+                                Since then, I&apos;ve been on a continuous learning journey, staying up-to-date with the latest technologies and trends in the ever-evolving field of software engineering.</p>
 
-                            <p>When I&apos;m not working on client projects or teaching, you can find me learning how to make my favorite foods from scratch or finally
-                                making my way through the niche craft supplies I bought last year.</p>
+                            <p>Throughout my career, I&apos;ve had the opportunity to work with various technologies and frameworks, including .NET Core, React, ASP.NET, and Azure.
+                                At <Link href={'https://technobraingroup.com/digital/engineering-business/'}>TechnoBrain Global Microsoft Engineering Center</Link>, I played a pivotal role in developing .NET Core applications and .NET Web APIs to analyze and monitor Azure DevOps work items and SQL metrics, ensuring compliance with service level agreements (SLAs) and optimizing system performance.
+                                I also spearheaded the implementation of telemetry, monitoring, and alerting functionality through Azure Application Insights, resulting in improved application uptime and customer satisfaction.</p>
 
-                            <p>My motto is, and will always be, “Work hard, snack often.” After almost a decade in the design industry,
-                                I realize that working hard all the time isn&apos;t sustainable, but I got it tattooed on my forearms when I was 23 so it will always be my motto and I&apos;m fine with it. I just remind myself and others to take more breaks now.</p>
-
-                            <p>Speaking of snacking often: I recently graduated from the Plant-Based Culinary Arts program at the Institute of Culinary Education in New York.
-                                Now I&apos;m back in the studio and available for new creative projects and partnerships (especially food-related ones!).</p>
+                            <p>Thank you for taking the time to learn more about me. I look forward to the possibility of collaborating with you!</p>
                         </div>
 
 
