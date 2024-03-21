@@ -15,10 +15,14 @@ const theme = createTheme();
 
 export default function Home() {
 
-  const resumePdfURL = '../docs/DANIELIRUNGUCV.pdf'
+  const resumePdfURL = '/docs/DANIELIRUNGUCV.pdf'
 
   const handleOpenPdf = () => {
     window.open(resumePdfURL, '_blank');
+  };
+
+  const handleDownloadPdf = () => {
+    window.location.href = resumePdfURL;
   };
 
 
@@ -57,7 +61,7 @@ export default function Home() {
                 </Link>
                 <div className='resumebutton'>
                   <Button onClick={handleOpenPdf} color="primary">
-                    or Download My Resume
+                    View My Resume
                   </Button>
                 </div>
 

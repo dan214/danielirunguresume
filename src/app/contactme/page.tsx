@@ -14,8 +14,6 @@ export default function Page() {
 
     const [messageSent, setMessageSent] = useState(false);
 
-    const form = useRef();
-
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
         setFormData(prevState => ({
@@ -26,11 +24,6 @@ export default function Page() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
-        console.log("e")
-        console.log(e)
-        console.log(form.current)
-
         emailjs
             .sendForm('service_04i5wbi', 'template_niqf7sp', e.target, 'jltWkwjye-Du-lq6D')
             .then(
