@@ -3,6 +3,8 @@ import Image from 'next/image';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry'
 import elimisha from '../../images/elimishaVideos.png'
 import zawadi from '../../images/zawadiUni.png'
+import simulation from '../../images/simulation.png'
+import rssfeed from '../../images/Manually Hide Posts.jpg'
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, CardLink, CardGroup } from 'reactstrap';
 
 const Projects = () => {
@@ -14,7 +16,7 @@ const Projects = () => {
                 >
                     <CardBody>
                         <CardTitle tag="h5">
-                            Elimisha
+                            Elimisha (Django, Python)
                         </CardTitle>
                     </CardBody>
                     <Image
@@ -45,7 +47,7 @@ const Projects = () => {
                 >
                     <CardBody>
                         <CardTitle tag="h5">
-                            Zawadi University
+                            Zawadi University (React, C#)
                         </CardTitle>
                     </CardBody>
                     <Image
@@ -78,107 +80,58 @@ const Projects = () => {
                 >
                     <CardBody>
                         <CardTitle tag="h5">
-                            Card title
+                            Simulation of Virus and Patient Population Dynamics (Python)
                         </CardTitle>
-                        <CardSubtitle
-                            className="mb-2 text-muted"
-                            tag="h6"
-                        >
-                            Card subtitle
-                        </CardSubtitle>
                     </CardBody>
-                    <img
+                    <Image
                         alt="Card cap"
-                        src="https://picsum.photos/318/180"
-                        width="100%" />
+                        src={simulation}
+                        height={300}
+                        width={400} />
                     <CardBody>
                         <CardText>
-                            Some quick example text to build on the card title and make up the bulk of the card‘s content.
+                            I designed and implemented a
+                            stochastic simulation of patient and virus population dynamics, and reach conclusions
+                            about treatments regimens based on the simulation results.
                         </CardText>
-                        <CardLink href="#">
-                            Card Link
+                        <CardText>
+                            <b>Frameworks</b>
+
+                            <li>Python</li>
+                            <li>PyQt</li>
+                            <li>pylab</li>
+                        </CardText>
+                        <CardLink href="https://github.com/dan214/Simulation-of-Virus-and-Patient-Population-Dynamics/blob/master/ps8/ps7.py" target='_blank'>
+                            GitHub
                         </CardLink>
                     </CardBody>
                 </Card>
-
                 <Card
                 >
                     <CardBody>
                         <CardTitle tag="h5">
-                            Card title
+                            RSS Feed Filter (Python)
                         </CardTitle>
-                        <CardSubtitle
-                            className="mb-2 text-muted"
-                            tag="h6"
-                        >
-                            Card subtitle
-                        </CardSubtitle>
                     </CardBody>
-                    <img
+                    <Image
                         alt="Card cap"
-                        src="https://picsum.photos/318/180"
-                        width="100%" />
+                        src={rssfeed}
+                        height={300}
+                        width={400} />
                     <CardBody>
                         <CardText>
-                            Some quick example text to build on the card title and make up the bulk of the card‘s content.
+                            This app monitors news feeds over
+                            the internet, filters the news and alerts the user when it notices a news story that
+                            matches the user’s interests. Implemented in Python and Google News Feed, Yahoo
+                            News Feed.
                         </CardText>
-                        <CardLink href="#">
-                            Card Link
-                        </CardLink>
-                    </CardBody>
-                </Card>
-
-                <Card
-                >
-                    <CardBody>
-                        <CardTitle tag="h5">
-                            Card title
-                        </CardTitle>
-                        <CardSubtitle
-                            className="mb-2 text-muted"
-                            tag="h6"
-                        >
-                            Card subtitle
-                        </CardSubtitle>
-                    </CardBody>
-                    <img
-                        alt="Card cap"
-                        src="https://picsum.photos/318/180"
-                        width="100%" />
-                    <CardBody>
                         <CardText>
-                            Some quick example text to build on the card title and make up the bulk of the card‘s content.
-                        </CardText>
-                        <CardLink href="#">
-                            Card Link
-                        </CardLink>
-                    </CardBody>
-                </Card>
+                            <b>Frameworks</b>
 
-
-                <Card
-                >
-                    <CardBody>
-                        <CardTitle tag="h5">
-                            Card title
-                        </CardTitle>
-                        <CardSubtitle
-                            className="mb-2 text-muted"
-                            tag="h6"
-                        >
-                            Card subtitle
-                        </CardSubtitle>
-                    </CardBody>
-                    <img
-                        alt="Card cap"
-                        src="https://picsum.photos/318/180"
-                        width="100%" />
-                    <CardBody>
-                        <CardText>
-                            Some quick example text to build on the card title and make up the bulk of the card‘s content.
+                            <li>Python</li>
                         </CardText>
-                        <CardLink href="#">
-                            Card Link
+                        <CardLink href="https://github.com/dan214/RSS-Feed-Filter/blob/master/ps5.py" target='_blank'>
+                            GitHub
                         </CardLink>
                     </CardBody>
                 </Card>
