@@ -17,8 +17,9 @@ const NavBar = () => {
                 </Link></NavbarBrand>
                 <Nav className="justify-content-right topbar static-top">
                     <NavItem>
-                        <Link className={pathname === '/about' ? 'active' : ''} href="/about">
-                            About
+                        <Link className={pathname === '/experience' ? 'active' : ''} href="/experience"
+                        >
+                            Experience
                         </Link>
                     </NavItem>
                     <NavItem>
@@ -28,11 +29,12 @@ const NavBar = () => {
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Link className={pathname === '/experience' ? 'active' : ''} href="/experience"
-                        >
-                            Experience
+                        <Link className={pathname === '/about' ? 'active' : ''} href="/about">
+                            About
                         </Link>
                     </NavItem>
+
+
                     <NavItem>
                         <Link className={pathname === '/contactme' ? 'active' : ''} href="/contactme"
                         >
