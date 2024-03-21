@@ -2,6 +2,7 @@
 import React, { useRef, useState } from 'react';
 import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 import emailjs from 'emailjs-com';
+import Link from 'next/link';
 
 export default function Page() {
 
@@ -51,11 +52,14 @@ export default function Page() {
 
     return (
         <>
-            <div className="header-page">
+            <div className="header-page contact">
                 <h2>Contact Me</h2>
+
+                <div>Feel free to say hi!</div>
+                <div><Link href={'https://www.linkedin.com/in/daniel-irungu/'}>via LinkedIn</Link></div>
+                <span>You can fill out the form below or shoot me an email at:<Link href={'mailto:danielirungu544@gmail.com'}> danielirungu544@gmail.com</Link></span>
             </div>
             <Container>
-                <h2>Contact Me</h2>
                 {!messageSent ? (
                     <Form onSubmit={sendEmail}>
                         <FormGroup>
