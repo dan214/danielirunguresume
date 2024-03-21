@@ -43,10 +43,6 @@ a.active, .nav-item a:hover{
   text-underline-offset: 0.2em;
 }
 
-/* styles.css */
-.profile-pic-container {/* Set the desired height */ /* Hide any overflowing content */
-}
-
 .profile-pic {/* Make sure the image takes up the entire container width */ /* Make sure the image takes up the entire container height */
   object-fit: cover; /* Maintain aspect ratio while covering the container */
 }
