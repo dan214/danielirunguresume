@@ -6,10 +6,7 @@
 }
 
 a.navbar-brand{
-    font-family: brandon-grotesque;
-    font-size: 35px;
-    font-weight: 900;
-    letter-spacing: 0.576px;
+    font-size: 30px;
     line-height: 25.92px;
 }
 
@@ -38,8 +35,6 @@ a.nav-link.active {
     border: 0;
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
     font-size: 18px;
-    letter-spacing: 1.424px;
-    font-family: brandon-grotesque;
 }
 
 a.active, .nav-item a:hover{
