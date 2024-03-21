@@ -34,12 +34,6 @@ const NavBar = () => {
                         </Link>
                     </NavItem>
                     <NavItem>
-                        <Link className={pathname === '/education' ? 'active' : ''} href="/education"
-                        >
-                            Education
-                        </Link>
-                    </NavItem>
-                    <NavItem>
                         <Link className={pathname === '/contactme' ? 'active' : ''} href="/contactme"
                         >
                             Contact me

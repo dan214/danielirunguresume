@@ -14,6 +14,18 @@ import Link from 'next/link';
 const theme = createTheme();
 
 export default function Home() {
+
+  const resumePdfURL = '/docs/DANIELIRUNGUCV.pdf'
+
+  const handleOpenPdf = () => {
+    window.open(resumePdfURL, '_blank');
+  };
+
+  const handleDownloadPdf = () => {
+    window.location.href = resumePdfURL;
+  };
+
+
   return (
     <>
       <Row>
@@ -47,6 +59,12 @@ export default function Home() {
                 <Link href='/experience'>
                   See my experience <Arrow />
                 </Link>
+                <div className='resumebutton'>
+                  <Button onClick={handleOpenPdf} color="primary">
+                    View My Resume
+                  </Button>
+                </div>
+
                 <div className='socialmedia'>
                   <a href='https://www.facebook.com/daniel.irungu.71/' target='_blank'>
                     <Facebook />
