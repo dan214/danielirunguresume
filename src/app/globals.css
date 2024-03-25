@@ -98,3 +98,15 @@ body {
 .resumebutton {
     margin-top: 20px;
 }
+
+
+.experience-card {
+    width: 100%;
+  transition: transform 0.5s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.experience-card:hover {
+  transform: scale(1.03); /* Increase scale on hover for pop-out effect */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Add box shadow on hover for depth effect */
+  background-color: #f0f0f0; /* Change background color on hover */
+}
