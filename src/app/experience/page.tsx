@@ -3,11 +3,14 @@ import { Card, CardHeader, CardBody, CardTitle, CardText, CardSubtitle, Row, Col
 
 export default function Page() {
 
-    const resumePdfURL = '/docs/DANIELIRUNGUCV.pdf'
+    const resumePdfURL = '/docs/Daniel_Irungu_Latest_CV.pdf'
 
     const handleDownloadPdf = () => {
         window.location.href = resumePdfURL;
     };
+      const handleOpenPdf = () => {
+    window.open(resumePdfURL, '_blank');
+  };
 
     return (
         <>
@@ -21,19 +24,54 @@ export default function Page() {
                     size: 3,
                     offset: 9
                 }}>
-                    <Button onClick={handleDownloadPdf} color="primary">
+                    <Button onClick={handleOpenPdf} color="primary">
                         Download My Resume
                     </Button>
                 </Col>
             </Row>
             <Row>
+                   <Card
+                    className="my-2"
+                    color="light"
+                    outline
+                >
+                    <CardHeader>
+                        March 2024 - Present
+                    </CardHeader>
+                    <CardBody>
+                        <CardTitle tag="h5">
+                            Software Development Engineer Lead - TechnoBrain GBS
+                        </CardTitle>
+                        <CardSubtitle>
+                            <u>Key Achievements</u>
+                        </CardSubtitle>
+                        <CardText>
+                            <ul>
+                                <li>
+                                Lead and directly manage a team of 11 engineers, driving delivery planning, prioritization, coaching, and
+performance development across software development and quality engineering workstreams
+                                </li>
+                                <li>
+                                    Own technical delivery for engineering initiatives by aligning implementation plans, code quality
+expectations, test strategy, and release readiness with cross-functional stakeholders.                            </li>
+                                <li>
+                                    Maintained and optimized existing automated tests in TypeScript, reducing test execution time by 20% </li>
+                                <li>
+                                    Debugged and improved an existing codebase, leading to a 25% reduction in production bugs.</li>
+                                <li>
+                                    Developed and expanded automated coverage with Jest and Playwright, writing 100+ automated tests and
+increasing the overall suite by 40%</li>
+                            </ul>
+                        </CardText>
+                    </CardBody>
+                </Card>
                 <Card
                     className="my-2"
                     color="light"
                     outline
                 >
                     <CardHeader>
-                        November 2019 - Present
+                        November 2019 - March 2024
                     </CardHeader>
                     <CardBody>
                         <CardTitle tag="h5">
